@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Hi, I'M Dana</title>
+        <title>{"Hi, I'M"} Dana</title>
         <meta
           name="description"
           content="Hi I'm Dana and this is my personal website"
@@ -15,7 +15,7 @@ export default function Home() {
       <main className="bg-primary min-h-screen flex flex-col items-center p-24 justify-center">
         <div className="flex flex-col items-center">
           <h1 className=" text-9xl font-bold text-black">
-            Hi, I'm <span className="text-text-primary">Dana!</span>
+            {"Hi, I'm"} <span className="text-text-primary">Dana!</span>
           </h1>
         </div>
       </main>
