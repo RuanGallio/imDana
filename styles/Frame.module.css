@@ -1,0 +1,36 @@
+.border {
+  font-size: 1.6rem;
+  display: grid;
+  place-items: center;
+  min-height: 200px;
+  border: 8px solid;
+  padding: 1rem;
+}
+
+.full {
+  border-image: linear-gradient(45deg, #006D77, #AAF683) 1;
+}
+
+.sides {
+  border-image: linear-gradient(to left, #006D77, #AAF683) 1 0;
+}
+.sides2 {
+  border-image: linear-gradient(to bottom, #006D77, #AAF683) 0 1;
+}
+
+.linearRepeating {
+  border-width: 10px;
+  border-image: repeating-linear-gradient(45deg, #006D77, #F28482 4%) 1;
+}
+
+.radialRepeating {
+  border-width: 20px;
+  border-image: repeating-radial-gradient(
+      circle at 10px,
+      #006D77,
+      #F28482 2px,
+      #AAF683 4px,
+      #F28482 2px
+    )
+    1;
+}
