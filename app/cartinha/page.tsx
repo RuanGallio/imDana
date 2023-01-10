@@ -13,7 +13,7 @@ export default function Cartinha() {
   const [width, setWidth] = useState<number>(0);
   const [height, setHeight] = useState<number>(0);
   const [isMobile, setIsMobile] = useState<boolean>(false);
-  const [showLetter, setShowLetter] = useState<boolean>(true);
+  const [showLetter, setShowLetter] = useState<boolean>(false);
   useEffect(() => {
     const getWidth = () => {
       setWidth(window.innerWidth);
