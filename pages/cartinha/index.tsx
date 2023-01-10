@@ -1,8 +1,8 @@
-"use client";
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../../styles/Frame.module.css";
 import React, { useState, useEffect } from "react";
+import RootLayout from "../../components/layout";
 
 type animals = "pinky" | "panpan";
 
