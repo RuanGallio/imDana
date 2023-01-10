@@ -47,7 +47,7 @@ export default function Blog() {
         <div className=" z-10 flex flex-col px-8 pb-20">
           <div className="flex flex-col items-center justify-center pt-[5%]">
             <h1 className="text-8xl text-center font-shadows text-dark-green ">
-              I'm Dana's Blog!
+              {"I'm Dana's"} Blog!
             </h1>
             <h2 className="text-2xl lg:text-3xl text-center pt-8 lg:pt-4 text-[#4c4c4c] font-montserrat ">
               {" "}
