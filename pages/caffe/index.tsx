@@ -79,6 +79,7 @@ export default function Caffe() {
                   alt="bolo_morango"
                   width={500}
                   height={500}
+                  priority
                 />
               </div>
             </div>
@@ -108,6 +109,7 @@ export default function Caffe() {
                   src="/static/img/cheesecake_manga.jpeg"
                   alt="cheese_cake"
                   width={500}
+                  priority
                   height={500}
                 />
               </div>
@@ -137,8 +139,9 @@ export default function Caffe() {
 
                 <Image
                   src="/static/img/os_ovos.jpeg"
-                  alt="cheese_cake"
+                  alt="os_ovos"
                   width={500}
+                  priority
                   height={500}
                 />
               </div>
@@ -161,9 +164,10 @@ export default function Caffe() {
                 </p>
                 <Image
                   src="/static/img/risotto.jpeg"
-                  alt="bolo_morango"
+                  alt="risotto"
                   width={500}
                   height={500}
+                  priority
                 />
               </div>
             </div>
@@ -182,9 +186,10 @@ export default function Caffe() {
                 </p>
                 <Image
                   src="/static/img/os_chefes.jpeg"
-                  alt="bolo_morango"
+                  alt="os_chefes"
                   width={500}
                   height={500}
+                  priority
                 />
               </div>
             </div>

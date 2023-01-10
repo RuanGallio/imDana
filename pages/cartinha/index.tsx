@@ -205,6 +205,7 @@ export default function Cartinha() {
                     alt="cheese_cake"
                     width={500}
                     height={500}
+                    priority
                   />
                 </div>
               </div>
