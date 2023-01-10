@@ -50,9 +50,9 @@ export default function Caffe() {
         <div className=" z-10 flex flex-col px-8 pb-20">
           <div className="flex flex-col items-center justify-center pt-[5%]">
             <h1 className="text-8xl  text-center font-shadows text-dark-green ">
-              I'm Dana Caffe
+              I'm Dana's Caffe
             </h1>
-            <h2 className="text-3xl text-center pt-4 text-black font-shadows: ">
+            <h2 className="text-3xl lg:text-4xl text-center pt-8 lg:pt-4 text-black font-montserrat ">
               {" "}
               Aqui estão algumas de minhas inveções preferidas{" "}
             </h2>
@@ -61,15 +61,18 @@ export default function Caffe() {
             <div className=" flex flex-col justify-center items-center">
               <h1 className="text-white font-abril my-4 lg:mt-0 text-center lg:text-left text-2xl lg:text-3xl pb-2">
                 {" "}
-                Quando se entendeu com o ídolo{" "}
+                O bolo de morango{" "}
               </h1>
 
               <div
                 className={`grid shadow-sm bg-cover ${styles.border} ${styles.sides} `}
               >
-                <p className="text-white font-montserrat text-md pb-2">
-                  O mais recente nessa lista, mas ficou uma delicía. É uma
-                  receita incrível que temos que fazer de novo
+                <p className="text-white  font-montserrat text-md pb-2">
+                  O mais recente nessa lista e uma grande inovação. Achei muito
+                  incrível usar o morango na massa mesmo.
+                  <br />
+                  Não ficou muito doce e o azedo do morango combinou muito. Amei
+                  😋
                 </p>
                 <Image
                   src="/static/img/bolo_morango.jpeg"
@@ -83,7 +86,7 @@ export default function Caffe() {
             <div className="flex flex-col lg:col-span-2 justify-center items-center">
               <h1 className="block lg:hidden text-white my-5 font-abril text-2xl lg:text-3xl text-center">
                 {" "}
-                1 ano de namoro{" "}
+                O Cheesecake de manga, original.{" "}
               </h1>
               <div
                 className={` flex flex-col lg:grid lg:grid-cols-2 shadow-sm bg-cover ${styles.border} ${styles.full} `}
@@ -91,11 +94,13 @@ export default function Caffe() {
                 <div className="flex flex-col">
                   <h1 className="hidden lg:block text-white font-abril text-3xl">
                     {" "}
-                    1 ano de namoro{" "}
+                    O Cheesecake de manga, original.{" "}
                   </h1>
-                  <p className="text-white font-montserrat text-md pb-2">
-                    O mais recente nessa lista, mas ficou uma delicía. É uma
-                    receita incrível que temos que fazer de novo
+                  <p className="text-white  font-montserrat text-md pt-3">
+                    Foi a primeira sobremesa que fizemos juntos. Tenho um
+                    carinho muito grande por ela. Fico feliz que vamos fazer de
+                    novo. Sabia que antes disso eu não gostava muito de
+                    cheesecake?
                   </p>
                 </div>
 
@@ -111,7 +116,7 @@ export default function Caffe() {
             <div className="flex flex-col lg:col-span-2 justify-center items-center">
               <h1 className="block lg:hidden text-white my-5 font-abril text-2xl text-center">
                 {" "}
-                A primeira make juntos{" "}
+                Eu não me lembro o nome dessa 😅{" "}
               </h1>
               <div
                 className={`flex flex-col lg:grid lg:grid-cols-2 shadow-sm bg-cover ${styles.border} ${styles.full} `}
@@ -119,11 +124,14 @@ export default function Caffe() {
                 <div className="flex flex-col">
                   <h1 className="hidden lg:block text-white font-abril text-3xl">
                     {" "}
-                    A primeira make juntos{" "}
+                    Eu não me lembro o nome dessa 😅{" "}
                   </h1>
-                  <p className="text-white font-montserrat text-md pb-2">
-                    O mais recente nessa lista, mas ficou uma delicía. É uma
-                    receita incrível que temos que fazer de novo
+                  <p className="text-white font-montserrat  text-md pt-3">
+                    Posso não me lembrar do nome, mas lembro do gosto 😎.
+                    <br />
+                    Com essa receita eu percebi que ainda tenho muito que posso
+                    aprender com você na cozinha, e fiquei chocado com a
+                    criatividade que você teve.
                   </p>
                 </div>
 
@@ -139,15 +147,17 @@ export default function Caffe() {
             <div className=" flex flex-col justify-center items-center">
               <h1 className="text-white font-abril my-4 lg:mt-0 text-center lg:text-left text-2xl lg:text-3xl pb-2">
                 {" "}
-                A 2 make juntos{" "}
+                O Risotto de Salmão{" "}
               </h1>
 
               <div
                 className={`grid shadow-sm bg-cover ${styles.border} ${styles.sides} `}
               >
-                <p className="text-white font-montserrat text-md pb-2">
-                  O mais recente nessa lista, mas ficou uma delicía. É uma
-                  receita incrível que temos que fazer de novo
+                <p className="text-white font-montserrat  text-md pb-2">
+                  Acho que é a tua receita favorita. Eu meio que amo salmão.
+                  <br />
+                  Mas essa vez, em especial, foi quando você fez lá em casa, e
+                  fiquei bem feliz de você ter apresentado esse prato lá.
                 </p>
                 <Image
                   src="/static/img/risotto.jpeg"
@@ -161,14 +171,14 @@ export default function Caffe() {
             <div></div>
             <div className="flex flex-col justify-center items-center">
               <h1 className="text-white font-abril my-4 lg:mt-0 text-center lg:text-left text-2xl lg:text-3xl pb-2">
-                Primera foto{" "}
+                Os Chefs 🤌{" "}
               </h1>
               <div
                 className={`grid shadow-sm bg-cover ${styles.border} ${styles.sides} `}
               >
                 <p className="text-white font-montserrat text-md pb-2">
-                  O mais recente nessa lista, mas ficou uma delicía. É uma
-                  receita incrível que temos que fazer de novo
+                  Eu achei essa fot muito linda, e bem, toda cozinha tem seus
+                  chefs, né?
                 </p>
                 <Image
                   src="/static/img/os_chefes.jpeg"
@@ -184,137 +194,3 @@ export default function Caffe() {
     </>
   );
 }
-
-/* <div className=" z-10 flex flex-col px-8 pb-20">
-          <div className="flex flex-col items-center justify-center pt-[5%]">
-            <h1 className="text-8xl  text-center font-shadows text-dark-green ">
-              I'm Dana Caffe
-            </h1>
-            <h2 className="text-3xl text-center pt-4 text-black font-shadows: ">
-              {" "}
-              Aqui estão algumas de minhas inveções preferidas{" "}
-            </h2>
-          </div>
-          <div className="grid grid-cols-3 gap-40 items-center justify-center pt-10">
-            <div className=" flex flex-col justify-center items-center">
-          <h1 className="text-white font-abril my-4 lg:mt-0 text-center lg:text-left text-2xl lg:text-3xl pb-2">
-            {" "}
-            Quando se entendeu com o ídolo{" "}
-          </h1>
-
-          <div
-            className={`grid shadow-sm bg-cover ${styles.border} ${styles.sides} `}
-          >
-            <p className="text-white font-montserrat text-md pb-2">
-              O mais recente nessa lista, mas ficou uma delicía. É uma receita
-              incrível que temos que fazer de novo
-            </p>
-            <Image
-              src="/static/img/bolo_morango.jpeg"
-              alt="bolo_morango"
-              width={500}
-              height={500}
-            />
-          </div>
-        </div>
-
-        <div className="flex flex-col lg:col-span-2 justify-center items-center">
-          <h1 className="block lg:hidden text-white my-5 font-abril text-2xl lg:text-3xl text-center">
-            {" "}
-            1 ano de namoro{" "}
-          </h1>
-          <div
-            className={` flex flex-col lg:grid lg:grid-cols-2 shadow-sm bg-cover ${styles.border} ${styles.full} `}
-          >
-            <div className="flex flex-col">
-              <h1 className="hidden lg:block text-white font-abril text-3xl">
-                {" "}
-                1 ano de namoro{" "}
-              </h1>
-              <p className="text-white font-montserrat text-md pb-2">
-                O mais recente nessa lista, mas ficou uma delicía. É uma receita
-                incrível que temos que fazer de novo
-              </p>
-            </div>
-
-            <Image
-              src="/static/img/cheesecake_manga.jpeg"
-              alt="cheese_cake"
-              width={500}
-              height={500}
-            />
-          </div>
-        </div>
-
-        <div className="flex flex-col lg:col-span-2 justify-center items-center">
-          <h1 className="block lg:hidden text-white my-5 font-abril text-2xl text-center">
-            {" "}
-            A primeira make juntos{" "}
-          </h1>
-          <div
-            className={`flex flex-col lg:grid lg:grid-cols-2 shadow-sm bg-cover ${styles.border} ${styles.full} `}
-          >
-            <div className="flex flex-col">
-              <h1 className="hidden lg:block text-white font-abril text-3xl">
-                {" "}
-                A primeira make juntos{" "}
-              </h1>
-              <p className="text-white font-montserrat text-md pb-2">
-                O mais recente nessa lista, mas ficou uma delicía. É uma receita
-                incrível que temos que fazer de novo
-              </p>
-            </div>
-
-            <Image
-              src="/static/img/os_ovos.jpeg"
-              alt="cheese_cake"
-              width={500}
-              height={500}
-            />
-          </div>
-        </div>
-
-        <div className=" flex flex-col justify-center items-center">
-          <h1 className="text-white font-abril my-4 lg:mt-0 text-center lg:text-left text-2xl lg:text-3xl pb-2">
-            {" "}
-            A 2 make juntos{" "}
-          </h1>
-
-          <div
-            className={`grid shadow-sm bg-cover ${styles.border} ${styles.sides} `}
-          >
-            <p className="text-white font-montserrat text-md pb-2">
-              O mais recente nessa lista, mas ficou uma delicía. É uma receita
-              incrível que temos que fazer de novo
-            </p>
-            <Image
-              src="/static/img/risotto.jpeg"
-              alt="bolo_morango"
-              width={500}
-              height={500}
-            />
-          </div>
-        </div>
-
-        <div></div>
-        <div className="flex flex-col justify-center items-center">
-          <h1 className="text-white font-abril my-4 lg:mt-0 text-center lg:text-left text-2xl lg:text-3xl pb-2">
-            Primera foto{" "}
-          </h1>
-          <div
-            className={`grid shadow-sm bg-cover ${styles.border} ${styles.sides} `}
-          >
-            <p className="text-white font-montserrat text-md pb-2">
-              O mais recente nessa lista, mas ficou uma delicía. É uma receita
-              incrível que temos que fazer de novo
-            </p>
-            <Image
-              src="/static/img/os_chefes.jpeg"
-              alt="bolo_morango"
-              width={500}
-              height={500}
-            />
-          </div>
-        </div>
-          </div>
-        </div> */

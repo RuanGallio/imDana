@@ -5,7 +5,6 @@ import Image from "next/image";
 import { motion, useAnimationControls } from "framer-motion";
 import { InView } from "react-intersection-observer";
 
-
 export default function Home() {
   const control = useAnimationControls();
 
@@ -34,7 +33,7 @@ export default function Home() {
           rel="stylesheet"
         />
       </Head>
-      <main className="bg-primary min-h-screen flex flex-col relative items-center p-3 lg:p-24 justify-center">
+      <main className="bg-melon min-h-screen flex flex-col relative items-center p-3 lg:p-24 justify-center">
         {/* use svg circle-scatter haikei as background */}
         <Image
           className="fixed top-0 left-0 "
@@ -58,7 +57,9 @@ export default function Home() {
             >
               <h1 className=" text-8xl lg:text-9xl font-bold  relative text-black font-montserrat ">
                 Oi, Eu sou a{" "}
-                <span className="text-text-primary text-9xl font-lobster">Dana!</span>
+                <span className="text-text-primary text-9xl font-lobster">
+                  Dana!
+                </span>
               </h1>
               <p className="text-lg lg:text-2xl text-black pt-[10%]  font-montserrat ">
                 É assim que eu imagino vai ser a abertura do seu site. Vamos ver
@@ -122,16 +123,18 @@ export default function Home() {
                     Ou pode ser um lugar para você vender seus artesanatos.
                     Mostrar para outras pessoas o que você faz.
                     <br />
-                    Até mesmo seu blog, se quiser. <br/> <br/> Você pode colocar suas
-                    anotações aqui, divulgar com o pessoal da faculdade, <br/>ou
-                    mandar todo mundo se foder e escrever sobre isso.
+                    Até mesmo seu blog, se quiser. <br /> <br /> Você pode
+                    colocar suas anotações aqui, divulgar com o pessoal da
+                    faculdade, <br />
+                    ou mandar todo mundo se foder e escrever sobre isso.
                   </p>
                   <Link
                     className="text-2xl text-center pt-4 text-black  underline decoration-text-primary underline-offset-2 lg:no-underline font-montserrat hover:text-text-primary  transition duration-500 ease-in-out "
                     href="/blog"
                   >
                     {" "}
-                    Então que tal mostrar um pouco de sua vida e falar das suas experiências?
+                    Então que tal mostrar um pouco de sua vida e falar das suas
+                    experiências?
                   </Link>
                 </div>
                 <div className="flex flex-col mt-[10%] gap-1 ">
