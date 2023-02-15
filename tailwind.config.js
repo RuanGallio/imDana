@@ -33,5 +33,5 @@ module.exports = {
       shadows: ["var(--shadows-font)"],
     },
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/typography')],
 };

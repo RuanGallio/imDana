@@ -1,8 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
-import styles from "../../styles/Frame.module.css";
+import styles from "../../../styles/Frame.module.css";
 import { useState, useEffect } from "react";
-import RootLayout from "../../components/layout";
 
 export default function Caffe() {
   // get total widht of the screen and height and set it as a state with typescript
