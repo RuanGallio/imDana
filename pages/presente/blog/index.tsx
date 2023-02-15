@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import styles from "../../styles/Frame.module.css";
+import styles from "../../../styles/Frame.module.css";
 import { useState, useEffect } from "react";
 
 export default function Blog() {

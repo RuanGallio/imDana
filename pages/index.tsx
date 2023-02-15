@@ -3,7 +3,6 @@ import Link from "next/link";
 import Image from "next/image";
 import { motion, useAnimationControls } from "framer-motion";
 import { InView } from "react-intersection-observer";
-import RootLayout from "../components/layout";
 
 export default function Home() {
   const control = useAnimationControls();
@@ -62,8 +61,8 @@ export default function Home() {
                 </span>
               </h1>
               <p className="text-lg lg:text-2xl text-black pt-[10%]  font-montserrat ">
-                É assim que eu imagino vai ser a abertura do seu site. Vamos ver
-                o que que você vai inventar aqui.
+                Sou estudante no 3º período de psicologia no Centro
+                Universitário FAG.
               </p>
             </motion.div>
           )}
@@ -82,74 +81,25 @@ export default function Home() {
                 className="grid lg:gap-x-10 w-full grid-cols-1 lg:grid-cols-2 lg:mt-[5%] justify-center items-center"
               >
                 <motion.div className="gap-3 lg:gap-6 flex flex-col lg:grid lg:grid-cols-2 lg:col-span-2  items-center justify-center">
-                  <div className="flex gap-4 lg:gap-0 flex-col items-center justify-center ">
-                    <p className="text-2xl  text-black font-montserrat ">
-                      Aqui pode ser qualquer coisa, o que você quiser e da
-                      maneira que você quiser se expressar.
+                  <div className="flex gap-4 lg:mx-[15%] lg:col-span-2 lg:gap-0 flex-col items-center justify-center ">
+                    <p className="text-2xl  text-black prose font-montserrat ">
+                      Sou uma estudante dedicada e comprometida com a área da
+                      psicologia infantil. Com uma abordagem empática e
+                      criativa, busco encontrar soluções inovadoras para ajudar
+                      crianças e suas famílias. Acredito que a natureza pode ser
+                      benéfica para a saúde mental infantil e, por isso, gosto
+                      de incluir atividades ao ar livre em minha prática.
                     </p>
-                    <p className="text-2xl  text-black font-montserrat ">
-                      E pode mudar e continuar mudando. De acordo com suas
-                      ideias, coisas novas que você quer testar.
-                    </p>
-                  </div>
-                  <div className="flex flex-col gap-4 lg:gap-0 items-center justify-center ">
-                    <p className="text-2xl  text-black font-montserrat ">
-                      O que quis aqui foi te dar alguma maneira de se espressar,
-                      alguma forma que você possa se sentir mais confortável.
-                    </p>
-                    <p className="text-2xl  text-black font-montserrat ">
-                      Fazer no seu tempo, do seu jeito. E que possa alcançar o
-                      mundo todo. Aqui estão alguns exemplos que pensei que você
-                      pode gostar 🤪
+                    <p className="text-2xl mt-4 text-black prose font-montserrat ">
+                      Além disso, sou organizada, interessada em educação,
+                      neurologia e desenvolvimento humano, e tenho habilidades
+                      em escrita e desenho. Estou em constante busca por novos
+                      conhecimentos e técnicas para auxiliar no desenvolvimento
+                      infantil e contribuir para um futuro mais saudável e
+                      equilibrado.
                     </p>
                   </div>
                 </motion.div>
-              </motion.div>
-              <motion.div ref={ref} variants={textVariant} animate={control}>
-                <div className="flex flex-col mt-[10%] gap-1 bg ">
-                  <p className="text-2xl text-center pt-4 text-black font-montserrat ">
-                    O seu Café vai precisar de um site.
-                  </p>
-                  <Link
-                    className="text-2xl text-center pt-4 text-black underline decoration-text-primary underline-offset-2 lg:no-underline  font-montserrat hover:text-text-primary  transition duration-500 ease-in-out "
-                    href="/caffe"
-                  >
-                    Que tal um lugar para mostrar fotos das suas invenções
-                    culinárias?
-                  </Link>
-                </div>
-                <div className="flex flex-col mt-[10%] gap-1 ">
-                  <p className="text-2xl text-center pt-4 text-black font-montserrat ">
-                    Ou pode ser um lugar para você vender seus artesanatos.
-                    Mostrar para outras pessoas o que você faz.
-                    <br />
-                    Até mesmo seu blog, se quiser. <br /> <br /> Você pode
-                    colocar suas anotações aqui, divulgar com o pessoal da
-                    faculdade, <br />
-                    ou mandar todo mundo se foder e escrever sobre isso.
-                  </p>
-                  <Link
-                    className="text-2xl text-center pt-4 text-black  underline decoration-text-primary underline-offset-2 lg:no-underline font-montserrat hover:text-text-primary  transition duration-500 ease-in-out "
-                    href="/blog"
-                  >
-                    {" "}
-                    Então que tal mostrar um pouco de sua vida e falar das suas
-                    experiências?
-                  </Link>
-                </div>
-                <div className="flex flex-col mt-[10%] gap-1 ">
-                  <p className="text-2xl text-center pt-4 text-black font-montserrat ">
-                    Mas, simplesmente, pode ser só um lugar para você escrever.
-                    Seu diário se quiser, ou seu blog.
-                  </p>
-
-                  <Link
-                    className="text-2xl text-center pt-4 text-black  underline decoration-text-primary underline-offset-2 lg:no-underline font-montserrat hover:text-text-primary  transition duration-500 ease-in-out "
-                    href="/cartinha"
-                  >
-                    Aqui pode ser o seu espaço, único e exclusivo.
-                  </Link>
-                </div>
               </motion.div>
             </div>
           )}
