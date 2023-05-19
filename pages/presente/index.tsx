@@ -112,7 +112,7 @@ export default function Home() {
                   </p>
                   <Link
                     className="text-2xl text-center pt-4 text-black underline decoration-text-primary underline-offset-2 lg:no-underline  font-montserrat hover:text-text-primary  transition duration-500 ease-in-out "
-                    href="/caffe"
+                    href="/presente/caffe"
                   >
                     Que tal um lugar para mostrar fotos das suas invenções
                     culinárias?
@@ -130,7 +130,7 @@ export default function Home() {
                   </p>
                   <Link
                     className="text-2xl text-center pt-4 text-black  underline decoration-text-primary underline-offset-2 lg:no-underline font-montserrat hover:text-text-primary  transition duration-500 ease-in-out "
-                    href="/blog"
+                    href="/presente/blog"
                   >
                     {" "}
                     Então que tal mostrar um pouco de sua vida e falar das suas
@@ -145,7 +145,7 @@ export default function Home() {
 
                   <Link
                     className="text-2xl text-center pt-4 text-black  underline decoration-text-primary underline-offset-2 lg:no-underline font-montserrat hover:text-text-primary  transition duration-500 ease-in-out "
-                    href="/cartinha"
+                    href="/presente/cartinha"
                   >
                     Aqui pode ser o seu espaço, único e exclusivo.
                   </Link>
